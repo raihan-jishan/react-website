@@ -1,0 +1,60 @@
+ * 
+ {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  list-style: none;
+  outline: none;
+  text-decoration: none;
+}
+body{
+  scroll-behavior: smooth;
+}
+/* convination */
+:root {
+  --activeGreen: #2dbf64;
+  --fontPrimary: #002333;
+  --questionBG: #e4e8ee;
+  --successGreen: #00ff84; 
+  --newGreen    : #1dd881;
+  --bodyBackground: #f2f4f8; 
+  --smartYellow: #FFC916;
+  --smartBlue: #0070f3;
+  --purpule: #728FCE;
+}
+/*  home 2 css code */
+.home2 img{
+  border-radius: 1rem;
+}
+/* button */
+
+.ServiceBtn{
+  background: var(--activeGreen);
+  padding: 7px 20px;
+  position: relative;
+  display: flex;
+  margin: 20px;
+  font-size: 1.3rem;
+  font-weight: bold;
+  border-radius: 0.4rem;
+  cursor: pointer;
+  color: #002333;
+}
+.ServiceBtn:hover{
+  opacity: 0.9;
+}
+
+/*  services css */
+.serviceImage img {
+   height: 150px;
+   width: 60%;
+}
+/* titleConat */
+.titleConat{
+  margin: 20px;
+  font-size: 1.4rem;
+  font-weight: bold;
+  background: #14d65f;
+   border-radius: 0.7rem;
+   padding: 8px;
+}
